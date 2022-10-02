@@ -20,6 +20,17 @@ for($x = 0; $x < $arrlength; $x++) {
   echo "<h3>" . $num_par[$x] . "</h3>";
 }
 ?>
+    <!--Esta es otra forma, primero generamos un array vacío, luego con un bucle FOR lo llenamos según la condición
+en este aco con números pares del 0 al 20 -->
+<?php
+print "Otra forma\n";
+$matriz = [];
+for ($i=2; $i <=20; $i+=2) { 
+  $matriz [] = $i;
+  print "<h3>$i</h3>\n";
+}
+echo "Este array tiene " . count($matriz) . " elementos";
+?>
 <hr>
 <?php
 print "<h2>Ejercicio 2:</h2>\n";
