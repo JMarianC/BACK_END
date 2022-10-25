@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    background-image: url(./imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover ;
+}
+.titulo, .texto {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.509);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.587);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 5%;
+    border-radius: 5px;
+}
+form > div >input, form > div > select {
+    color: white;
+    background-color: rgb(58, 58, 58);
+    border-radius: 8px;
+}
+form .boton {
+    margin-top: 5%;
+}
+.volver {
+    margin-top: 5%;
+    text-align: center;
+}
+.volver a  {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.carta {
+    background-color: aquamarine;
+}
+
